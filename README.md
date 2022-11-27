@@ -17,9 +17,9 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 3. Run the program with uvicorn, not directly with python. Use `ctrl + c` to exit program.
-    1. Run Hello World just to be sure FastAPI works.
+    1. Run Hello World just to be sure FastAPI works.<br>
     `uvicorn HelloWorld:hello_api --reload`
-    2. Full program is the following command.
+    2. Full program is the following command.<br>
     `uvicorn scoreboard-api.main:rest_api --reload`
-    3. To see the API docs, go to:
+    3. To see the API docs and test the API, go to:<br>
     `/docs`
