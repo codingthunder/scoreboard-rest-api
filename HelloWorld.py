@@ -1,3 +1,5 @@
+# Basic hello world to demonstrate FastAPI is installed correctly. Run via command "uvicorn HelloWorld:hello_api --reload"
+
 from fastapi import FastAPI
 
 hello_api = FastAPI()
